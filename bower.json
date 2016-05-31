@@ -1,0 +1,23 @@
+{
+  "name": "css-utility-mixins",
+  "description": "css utility mixins",
+  "main": "demo.html",
+  "authors": [
+    "Jeffry Wainwright"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "css"
+  ],
+  "homepage": "https://github.com/yowainwright/css-utility-mixins",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "normalize-css": "normalize.css#^4.1.1"
+  }
+}

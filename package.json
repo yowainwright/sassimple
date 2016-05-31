@@ -1,0 +1,25 @@
+{
+  "name": "css-utility-mixins",
+  "version": "1.0.0",
+  "description": "css utility mixins",
+  "main": "demo.html",
+  "scripts": {
+    "test": "css utilties"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yowainwright/css-utility-mixins.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Jeffry Wainwright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yowainwright/css-utility-mixins/issues"
+  },
+  "homepage": "https://github.com/yowainwright/css-utility-mixins#readme",
+  "devDependencies": {
+    "bower": "^1.7.9"
+  }
+}
