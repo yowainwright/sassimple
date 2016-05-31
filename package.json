@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/yowainwright/css-utility-mixins#readme",
   "devDependencies": {
-    "bower": "^1.7.9"
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-purifycss": "^0.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-webserver": "^0.9.1"
   }
 }
