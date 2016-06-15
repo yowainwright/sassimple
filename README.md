@@ -1,6 +1,6 @@
 # scss-utility-mixins
 
-> What if I told you there was a place where you could pull in a bunch of useful _(currently scss only)_ `css mixins` but you didn't have to deal with frameworks? 
+> What if I told you there was a place where you could pull in a bunch of useful scss mixins but you didn't have to deal with any dependencies? 
 
 The purpose of this repo is to give you a ton of scss mixins that you can bring in with bower so you don't have to write a bunch of css mixins yourself.
 
@@ -48,4 +48,3 @@ Fill in the gaps with a `scss utilities mixins`.
 }
 ```
 No funky framework classes required.
-
