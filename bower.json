@@ -1,16 +1,16 @@
 {
-  "name": "css-utility-mixins",
-  "description": "css utility mixins",
+  "name": "scss-utility-mixins",
+  "description": "scss utility mixins",
   "main": "demo.html",
   "version": "0.0.1",
   "authors": [
-    "Jeffry Wainwright <jjwainwright2@gmail.com> (http://jeffr.in)"
+    "Jeffry Wainwright <jjwainwright2@gmail.com> (http://jeffry.in)"
   ],
   "license": "ISC",
   "keywords": [
     "css"
   ],
-  "homepage": "https://github.com/yowainwright/css-utility-mixins",
+  "homepage": "https://github.com/yowainwright/scss-utility-mixins",
   "ignore": [
     "**/.*",
     "node_modules",

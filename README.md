@@ -1,8 +1,8 @@
-# css-utility-mixins
+# scss-utility-mixins
 
 > What if I told you there was a place where you could pull in a bunch of useful _(currently scss only)_ `css mixins` but you didn't have to deal with frameworks? 
 
-The purpose of this repo is to give you a ton of css _(currently scss only)_ mixins that you can bring in with bower (`bower install`) so you don't have to write a bunch of css mixins yourself.
+The purpose of this repo is to give you a ton of scss mixins that you can bring in with bower so you don't have to write a bunch of css mixins yourself.
 
 1. Make your own css for your own product.
 
@@ -14,7 +14,7 @@ The purpose of this repo is to give you a ton of css _(currently scss only)_ mix
 
 ## Idea
 
-Fill in the gaps with a `css utilities mixins`. 
+Fill in the gaps with a `scss utilities mixins`. 
 
 1. Here's a mixin
 ```
