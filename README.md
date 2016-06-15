@@ -48,3 +48,8 @@ Fill in the gaps with a `scss utilities mixins`.
 }
 ```
 No funky framework classes required.
+
+## Install
+
+`bower install scss-utility-mixins`
+
