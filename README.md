@@ -36,7 +36,7 @@ Fill in the gaps with a `scss utilities mixins`.
 </form>
 ```
 
-4. Write your CSS.
+4. Write your SCSS.
 ```
 .checkout {
 	&--button {
@@ -47,5 +47,5 @@ Fill in the gaps with a `scss utilities mixins`.
 	}
 }
 ```
-
+No funky framework classes required.
 
