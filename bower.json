@@ -2,8 +2,9 @@
   "name": "css-utility-mixins",
   "description": "css utility mixins",
   "main": "demo.html",
+  "version": "0.0.1",
   "authors": [
-    "Jeffry Wainwright"
+    "Jeffry Wainwright <jjwainwright2@gmail.com> (http://jeffr.in)"
   ],
   "license": "ISC",
   "keywords": [
