@@ -17,7 +17,7 @@ The purpose of this repo is to give you a ton of scss mixins that you can bring 
 Fill in the gaps with a `scss utilities mixins`. 
 
 1. Here's a mixin
-```
+```sass
 @mixin button ($backgrondColor = transparent, $padding = 0, $border = 0, $margin = 0, $outline: 0, $padding = 0) {
 		background-color: $backgrondColor;
     border: $border;
@@ -30,7 +30,7 @@ Fill in the gaps with a `scss utilities mixins`.
 ```
 
 3. Look at your HTML.
-```
+```html
 <form class="checkout">
     <button class="checkout__button checkout__button--finish"></button>
 </form>
