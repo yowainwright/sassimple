@@ -1,6 +1,6 @@
 {
   "name": "scss-utility-mixins",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "scss utility mixins",
   "main": "demo.html",
   "scripts": {
