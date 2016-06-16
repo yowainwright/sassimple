@@ -6,12 +6,6 @@ var webserver = require('gulp-webserver');
 
 gulp.task('styles', function() {
   gulp
-    .src('src/pre/styles/mixins.scss')
-    .pipe(sassGlob())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(rename({prefix: '_', extname: '.scss'}))
-    .pipe(gulp.dest('src/'));
-  gulp
   .src('src/pre/styles/demo.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
