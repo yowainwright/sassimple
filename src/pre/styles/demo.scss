@@ -1,13 +1,28 @@
-// imports bootstrap stuff from bower bootstrap-sass
+// imports bootstrap-sass mixins: http://getbootstrap.com/css/#sass
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
+// imports sassline (vertical rhythm): http://getbootstrap.com/css/#sass
+@import "bower_components/sassline/assets/sass/sassline-base/mixins.scss";
+	// Key mixin: sassline
+	// General sassline mixin layout sassline($fontsize, $font, $lineheight, $below, $breakpoint);
+
+// Mixins provided by SCSS Utility Mixins 
 @import "variables";
 @import "browser/appearance";
+@import "browser/prefix";
+@import "browser/ie/8";
+@import "browser/ie/9";
 @import "browser/ie/10_11";
-@import "browser/ie/8_9";
 @import "decoration/stripes";
 @import "element/button";
 @import "element/progress";
-@import "element/scrollbar";
+@import "element/submit";
 @import "layout/clearfix";
+@import "layout/positioning";
+@import "layout/clearfix";
+@import "media/image/circle";
+@import "media/video/play_button_circle";
+@import "media/video/play_button_rounded";
+@import "media/video/timer";
+@import "text/font_sizing";
