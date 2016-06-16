@@ -53,3 +53,55 @@ No funky framework classes required.
 
 `bower install scss-utility-mixins`
 
+## Mixins
+
+From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
+
+```
+@import "mixins/hide-text";
+@import "mixins/opacity";
+@import "mixins/image";
+@import "mixins/labels";
+@import "mixins/reset-filter";
+@import "mixins/resize";
+@import "mixins/responsive-visibility";
+@import "mixins/size";
+@import "mixins/tab-focus";
+@import "mixins/reset-text";
+@import "mixins/text-emphasis";
+@import "mixins/text-overflow";
+@import "mixins/vendor-prefixes";
+
+@import "mixins/alerts";
+@import "mixins/buttons";
+@import "mixins/panels";
+@import "mixins/pagination";
+@import "mixins/list-group";
+@import "mixins/nav-divider";
+@import "mixins/forms";
+@import "mixins/progress-bar";
+@import "mixins/table-row";
+
+@import "mixins/background-variant";
+@import "mixins/border-radius";
+@import "mixins/gradients";
+
+@import "mixins/clearfix";
+@import "mixins/center-block";
+@import "mixins/nav-vertical-align";
+@import "mixins/grid-framework";
+@import "mixins/grid";
+
+```
+From `scss-utility-mixins`
+
+```
+@import "browser/appearance";
+@import "browser/ie/10_11";
+@import "decoration/stripes";
+@import "element/button";
+@import "element/progress";
+
+```
+
+

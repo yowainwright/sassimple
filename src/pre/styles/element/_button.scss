@@ -9,20 +9,15 @@
 
 @mixin button-state() {
 	&,
-  &:active,
-  &.active {
-    &:focus,
-    &.focus {
+  &:active {
+    &:focus{
       @include tab-focus;
     }
   }
-
   &:hover,
-  &:focus,
-  &.focus {
+  &:focus {
     text-decoration: none;
   }
-
   &[disabled],
   fieldset[disabled] & {
     cursor: none;

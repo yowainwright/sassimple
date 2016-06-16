@@ -6,23 +6,19 @@ var webserver = require('gulp-webserver');
 
 gulp.task('styles', function() {
   gulp
-    .src('src/styles/main.scss')
+    .src('src/pre/styles/mixins.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('css/'));
+    .pipe(rename({prefix: '_', extname: '.scss'}))
+    .pipe(gulp.dest('src/'));
   gulp
-  .src('css/main.css')
-    .pipe(rename({prefix: '_', suffix: '_compiled', extname: '.scss'}))
-    .pipe(gulp.dest('src/styles/'));
+  .src('src/pre/styles/demo.scss')
+    .pipe(sassGlob())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('src/'));
 });
 
-gulp.task('view', function() {
-  gulp.src('demo.html')
-    .pipe(webserver({
-      open: true,
-      fallback: 'demo.html'
-    }));
-});
+
 
 // watch yaml config folder changes
 gulp.task('default',function() {
