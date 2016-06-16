@@ -1,0 +1,25 @@
+// vertically center
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  @include prefix(transform, translateY(-50%), webkit ms moz);
+}
+// Example usage: @include vertical-align;
+
+// horizontally align
+@mixin horizontal-align($position: relative) {
+  position: $position;
+  left: 50%;
+  @include prefix(transform, translateX(-50%), webkit ms moz);
+}
+// Example usage: @include horizontal-align;
+
+
+// middle align (vertically & horizontally center)
+@mixin middle-align($position: absolute) {
+  left: 0;
+  position: $position;
+  top: 50%;
+  @include prefix(transform, translate(-50%, -50%), webkit ms moz);
+} 
+// Example usage: @include middle-align;
