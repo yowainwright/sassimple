@@ -4,17 +4,28 @@ var sass = require('gulp-sass');
 var sassGlob = require('gulp-sass-glob');
 var webserver = require('gulp-webserver');
 
-gulp.task('styles', function() {
+gulp.task('copy', function() {
+	// 3rd party mixins
+	gulp
+	.src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
+    .pipe(gulp.dest('src/mixins/bootstrap/'));
   gulp
-  .src('src/pre/styles/demo.scss')
+	.src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss')
+    .pipe(gulp.dest('src/mixins/bootstrap/'));
+  gulp
+	.src('bower_components/sassline/assets/sass/sassline-base/_mixins.scss')
+    .pipe(gulp.dest('src/mixins/sassline/'));
+});
+
+gulp.task('style', function() {
+  gulp
+  .src('src/pre/mixins/demo.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('src/'));
 });
 
-
-
-// watch yaml config folder changes
 gulp.task('default',function() {
+	gulp.watch('', ['copy']);
   gulp.watch('', ['styles']);
 });
