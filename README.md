@@ -94,7 +94,7 @@ From [sassline](https://sassline.com/)
 
 From `scss-utility-mixins`
 
-```
+```sass
 @import "browser/appearance";
 @import "browser/prefix";
 @import "browser/ie/8";
