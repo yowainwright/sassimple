@@ -16,6 +16,9 @@ gulp.task('copy', function() {
 	.src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss')
     .pipe(gulp.dest('src/mixins/bootstrap/'));
   gulp
+	.src('bower_components/sassline/assets/sass/sassline-base/_variables.scss')
+    .pipe(gulp.dest('src/mixins/sassline/'));
+  gulp
 	.src('bower_components/sassline/assets/sass/sassline-base/_mixins.scss')
     .pipe(gulp.dest('src/mixins/sassline/'));
 });
