@@ -7,6 +7,9 @@ var webserver = require('gulp-webserver');
 gulp.task('copy', function() {
 	// 3rd party mixins
 	gulp
+  .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scss')
+    .pipe(gulp.dest('src/mixins/bootstrap/mixins/'));
+	gulp
 	.src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
     .pipe(gulp.dest('src/mixins/bootstrap/'));
   gulp
