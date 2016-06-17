@@ -37,7 +37,7 @@ Fill in the gaps with a `scss utilities mixins`.
 ```
 
 4. Write your SCSS.
-```
+```sass
 .checkout {
 	&--button {
 		@include button(you, got, it, all);
@@ -57,7 +57,7 @@ No funky framework classes required.
 
 From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
-```
+```sass
 @import "mixins/hide-text";
 @import "mixins/opacity";
 @import "mixins/image";
@@ -71,7 +71,6 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 @import "mixins/text-emphasis";
 @import "mixins/text-overflow";
 @import "mixins/vendor-prefixes";
-
 @import "mixins/alerts";
 @import "mixins/buttons";
 @import "mixins/panels";
@@ -81,11 +80,9 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 @import "mixins/forms";
 @import "mixins/progress-bar";
 @import "mixins/table-row";
-
 @import "mixins/background-variant";
 @import "mixins/border-radius";
 @import "mixins/gradients";
-
 @import "mixins/clearfix";
 @import "mixins/center-block";
 @import "mixins/nav-vertical-align";
@@ -93,14 +90,28 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 @import "mixins/grid";
 
 ```
+From [sassline](https://sassline.com/)
+
 From `scss-utility-mixins`
 
 ```
 @import "browser/appearance";
+@import "browser/prefix";
+@import "browser/ie/8";
+@import "browser/ie/9";
 @import "browser/ie/10_11";
 @import "decoration/stripes";
 @import "element/button";
 @import "element/progress";
+@import "element/submit";
+@import "layout/clearfix";
+@import "layout/positioning";
+@import "layout/clearfix";
+@import "media/image/circle";
+@import "media/video/play_button_circle";
+@import "media/video/play_button_rounded";
+@import "media/video/timer";
+@import "text/font_sizing";
 
 ```
 
