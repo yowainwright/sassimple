@@ -1,6 +1,7 @@
 @mixin anchor(
     $decorationHover: underline, 
     $color: default, 
+    $colorHover: $color,
     $colorActive: default, 
     $colorVisited: default
   ) {
