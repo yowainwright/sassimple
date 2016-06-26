@@ -21,6 +21,15 @@ gulp.task('copy', function() {
   gulp
 	.src('bower_components/sassline/assets/sass/sassline-base/_mixins.scss')
     .pipe(gulp.dest('src/mixins/sassline/'));
+  gulp
+  .src('bower_components/bourbon/assets/stylesheets/**/*')
+    .pipe(gulp.dest('src/mixins/bourbon/'));
+  gulp
+  .src('bower_components/bourbon/app/assets/stylesheets/**/*')
+    .pipe(gulp.dest('src/mixins/bourbon/'));
+  gulp
+  .src('bower_components/neat/app/assets/stylesheets/**/*')
+    .pipe(gulp.dest('src/mixins/neat/'));
 });
 
 gulp.task('style', function() {
