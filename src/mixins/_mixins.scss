@@ -8,7 +8,13 @@
 	// Key mixin: sassline
 	// General sassline mixin layout sassline($fontsize, $font, $lineheight, $below, $breakpoint);
 
-// Mixins provided by SCSS Utility Mixins 
+// imports sassline (vertical rhythm): https://sassline.com/
+@import "bourbon/bourbon.scss";
+@import "neat/neat.scss";
+
+
+
+// Mixins provided by SCSS Utility Mixins
 @import "variables";
 @import "browser/appearance";
 @import "browser/prefix";

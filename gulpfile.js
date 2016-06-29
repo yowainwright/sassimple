@@ -30,6 +30,9 @@ gulp.task('copy', function() {
   gulp
   .src('bower_components/neat/app/assets/stylesheets/**/*')
     .pipe(gulp.dest('src/mixins/neat/'));
+  gulp
+  .src('bower_components/foundation/scss/**/*')
+    .pipe(gulp.dest('src/mixins/foundation/'));
 });
 
 gulp.task('style', function() {
