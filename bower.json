@@ -23,6 +23,7 @@
     "sassline": "^2.1.2",
     "bourbon": "^4.2.7",
     "neat": "^1.7.4",
-    "bitters": "^1.3.1"
+    "bitters": "^1.3.1",
+    "foundation": "^5.5.3"
   }
 }
