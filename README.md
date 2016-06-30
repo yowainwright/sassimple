@@ -15,7 +15,7 @@
 
 - All the best mixins in 1 place.
 - Use mixins or don't.
-- Use a frmework or don't.
+- Use a framework or don't.
 
 ## Use Case
 
