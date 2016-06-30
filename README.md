@@ -1,18 +1,23 @@
 # scss-utility-mixins
 
-> What if I told you there was a place where you could pull in a bunch of useful scss mixins but you didn't have to deal with any dependencies? 
+> Project Goal: provide useful scss mixins in 1 place.
 
-The purpose of this repo is to give you a ton of scss mixins that you can bring in with bower so you don't have to write a bunch of css mixins yourself.
+## `scss-utility-mixins` provides
 
-1. Make your own css for your own product.
+- [Bootstrap](http://getbootstrap.com/)
+- [Foundation](http://foundation.zurb.com/)
+- [Bourbon](http://bourbon.io/)
+- [Neat](http://neat.bourbon.io/)
+- [Sassline](https://sassline.com/)
+- Plus, other helper mixins
 
-2. Or, use a framework. This package doesn't care.
+## Philo'
 
-3. If you don't use any of these mixins, your compiled css will not know or care that this package was in your repo.
+- All the best mixins in 1 place.
+- Use mixins or don't.
+- Use a frmework or don't.
 
-4. Only use the mixins you want. 
-
-## Idea
+## Use Case
 
 Fill in the gaps with a `scss utilities mixins`. 
 
@@ -47,7 +52,7 @@ Fill in the gaps with a `scss utilities mixins`.
 	}
 }
 ```
-No funky framework classes required.
+No framework css classes required but you can use them if you'd like.
 
 ## Install
 
@@ -90,7 +95,20 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 @import "mixins/grid";
 
 ```
+
 From [sassline](https://sassline.com/)
+
+```sass
+@mixin breakpoint;
+@mixin rootsize;
+@mixin maxwidth;
+@mixin measure;
+@mixin ideal-measure;
+@mixin fontsize;
+@mixin baseline;
+@mixin sassline;
+
+```
 
 From `scss-utility-mixins`
 
