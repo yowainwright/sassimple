@@ -35,9 +35,9 @@ gulp.task('copy', function() {
     .pipe(gulp.dest('src/mixins/foundation/'));
 });
 
-gulp.task('style', function() {
+gulp.task('styles', function() {
   gulp
-  .src('src/pre/mixins/demo.scss')
+  .src('src/mixins/demo.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('src/'));
