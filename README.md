@@ -21,7 +21,7 @@
 
 Fill in the gaps with a `scss utilities mixins`. 
 
-1. Here's a mixin
+Here's a mixin
 ```sass
 @mixin button ($backgrondColor = transparent, $padding = 0, $border = 0, $margin = 0, $outline: 0, $padding = 0) {
 		background-color: $backgrondColor;
@@ -34,14 +34,14 @@ Fill in the gaps with a `scss utilities mixins`.
 
 ```
 
-3. Look at your HTML.
+Look at your HTML
 ```html
 <form class="checkout">
     <button class="checkout__button checkout__button--finish"></button>
 </form>
 ```
 
-4. Write your SCSS.
+Write your SCSS
 ```sass
 .checkout {
 	&--button {
