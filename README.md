@@ -96,6 +96,49 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
 ```
 
+From [foundation](http://foundation.zurb.com/)
+
+```sass
+@import 'foundation/components/grid';
+@import 'foundation/components/accordion';
+@import 'foundation/components/alert-boxes';
+@import 'foundation/components/block-grid';
+@import 'foundation/components/breadcrumbs';
+@import 'foundation/components/button-groups';
+@import 'foundation/components/buttons';
+@import 'foundation/components/clearing';
+@import 'foundation/components/dropdown';
+@import 'foundation/components/dropdown-buttons';
+@import 'foundation/components/flex-video';
+@import 'foundation/components/forms';
+@import 'foundation/components/icon-bar';
+@import 'foundation/components/inline-lists';
+@import 'foundation/components/joyride';
+@import 'foundation/components/keystrokes';
+@import 'foundation/components/labels';
+@import 'foundation/components/magellan';
+@import 'foundation/components/orbit';
+@import 'foundation/components/pagination';
+@import 'foundation/components/panels';
+@import 'foundation/components/pricing-tables';
+@import 'foundation/components/progress-bars';
+@import 'foundation/components/range-slider';
+@import 'foundation/components/reveal';
+@import 'foundation/components/side-nav';
+@import 'foundation/components/split-buttons';
+@import 'foundation/components/sub-nav';
+@import 'foundation/components/switches';
+@import 'foundation/components/tables';
+@import 'foundation/components/tabs';
+@import 'foundation/components/thumbs';
+@import 'foundation/components/tooltips';
+@import 'foundation/components/top-bar';
+@import 'foundation/components/type';
+@import 'foundation/components/offcanvas';
+@import 'foundation/components/visibility';
+
+```
+
 From [sassline](https://sassline.com/)
 
 ```sass
