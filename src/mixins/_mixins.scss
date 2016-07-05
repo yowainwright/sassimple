@@ -13,7 +13,9 @@
 @import "neat/neat.scss";
 
 // imports foundation
-@import 'foundation/foundation.scss';
+// removes foundation css = it adds styles to elements
+// TODO: research & re-add
+// @import 'foundation/foundation.scss';
 
 // Mixins provided by SCSS Utility Mixins
 @import "variables";
