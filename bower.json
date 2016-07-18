@@ -2,6 +2,7 @@
   "name": "scss-utility-mixins",
   "description": "scss utility mixins",
   "main": "demo.html",
+  "version": "0.0.1",
   "authors": [
     "Jeffry Wainwright"
   ],

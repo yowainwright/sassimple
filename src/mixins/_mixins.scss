@@ -12,11 +12,6 @@
 @import "bourbon/bourbon.scss";
 @import "neat/neat.scss";
 
-// imports foundation
-// removes foundation css = it adds styles to elements
-// TODO: research & re-add
-// @import 'foundation/foundation.scss';
-
 // Mixins provided by SCSS Utility Mixins
 @import "variables";
 @import "browser/appearance";
