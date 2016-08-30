@@ -1,24 +1,27 @@
 {
-  "name": "scss-utility-mixins",
-  "version": "1.0.4",
+  "name": "sassimple",
+  "version": "1.0.5",
   "description": "scss utility mixins",
-  "main": "demo.html",
+  "main": "index.html",
   "scripts": {
     "test": "scss utilties"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yowainwright/scss-utility-mixins.git"
+    "url": "git+https://github.com/yowainwright/sassimple.git"
   },
   "keywords": [
-    "css"
+    "css",
+    "scss",
+    "sass",
+    "mixins"
   ],
   "author": "Jeffry Wainwright",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yowainwright/scss-utility-mixins/issues"
+    "url": "https://github.com/yowainwright/sassimple/issues"
   },
-  "homepage": "https://github.com/yowainwright/scss-utility-mixins#readme",
+  "homepage": "https://github.com/yowainwright/sassimple#readme",
   "devDependencies": {
     "bower": "^1.7.9",
     "gulp": "^3.9.1",

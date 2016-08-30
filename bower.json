@@ -1,16 +1,19 @@
 {
-  "name": "scss-utility-mixins",
-  "description": "scss utility mixins",
+  "name": "sassimple",
+  "description": "scss mixins library",
   "main": "demo.html",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "authors": [
     "Jeffry Wainwright"
   ],
   "license": "ISC",
   "keywords": [
-    "css"
+    "css",
+    "scss",
+    "sass",
+    "mixins"
   ],
-  "homepage": "https://github.com/yowainwright/scss-utility-mixins",
+  "homepage": "https://github.com/yowainwright/sassimple",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -23,6 +26,6 @@
     "neat": "^1.8.0",
     "bootstrap-sass": "^3.3.6",
     "bitters": "^1.3.2",
-    "foundation": "^5.5.3"
+    "sassline": "^2.1.2"
   }
 }

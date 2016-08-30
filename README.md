@@ -1,25 +1,33 @@
-# scss-utility-mixins
+# sassimple
 
-> Project Goal: provide useful scss mixins in 1 place.
+> Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
+
+## Install
+
+`bower install scss-utility-mixins`
 
 ## `scss-utility-mixins` provides
 
 - [Bootstrap](http://getbootstrap.com/)
-- [Foundation](http://foundation.zurb.com/)
 - [Bourbon](http://bourbon.io/)
 - [Neat](http://neat.bourbon.io/)
 - [Sassline](https://sassline.com/)
-- Plus, other helper mixins
+- Plus, other helper `scss utility mixins` mixins
 
 ## Philo'
 
-- All the best mixins in 1 place.
+- `Scss` mixins to fill in your simple _or_ complex css problems.
 - Use mixins or don't.
 - Use a framework or don't.
 
-## Use Case
+## Examples
 
-Fill in the gaps with a `scss utilities mixins`. 
+### 1. Code parity use case
+
+> Writing a mixin in a code parity pattern
+- In this example a button mixin is used to define a pattern of *_normalizing_ a `<button>`
+
+*normalizing: just means making it behave the same. _Normalizing_ is often done for browsers but it can also be done for team succinctness as well.  
 
 Here's a mixin
 ```sass
@@ -52,13 +60,9 @@ Write your SCSS
 	}
 }
 ```
-No framework css classes required but you can use them if you'd like.
+- No framework css classes required but you can use them if you'd like.
 
-## Install
-
-`bower install scss-utility-mixins`
-
-## Mixins
+## Current Mixins
 
 From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
@@ -93,49 +97,6 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 @import "mixins/nav-vertical-align";
 @import "mixins/grid-framework";
 @import "mixins/grid";
-
-```
-
-From [foundation](http://foundation.zurb.com/)
-
-```sass
-@import 'foundation/components/grid';
-@import 'foundation/components/accordion';
-@import 'foundation/components/alert-boxes';
-@import 'foundation/components/block-grid';
-@import 'foundation/components/breadcrumbs';
-@import 'foundation/components/button-groups';
-@import 'foundation/components/buttons';
-@import 'foundation/components/clearing';
-@import 'foundation/components/dropdown';
-@import 'foundation/components/dropdown-buttons';
-@import 'foundation/components/flex-video';
-@import 'foundation/components/forms';
-@import 'foundation/components/icon-bar';
-@import 'foundation/components/inline-lists';
-@import 'foundation/components/joyride';
-@import 'foundation/components/keystrokes';
-@import 'foundation/components/labels';
-@import 'foundation/components/magellan';
-@import 'foundation/components/orbit';
-@import 'foundation/components/pagination';
-@import 'foundation/components/panels';
-@import 'foundation/components/pricing-tables';
-@import 'foundation/components/progress-bars';
-@import 'foundation/components/range-slider';
-@import 'foundation/components/reveal';
-@import 'foundation/components/side-nav';
-@import 'foundation/components/split-buttons';
-@import 'foundation/components/sub-nav';
-@import 'foundation/components/switches';
-@import 'foundation/components/tables';
-@import 'foundation/components/tabs';
-@import 'foundation/components/thumbs';
-@import 'foundation/components/tooltips';
-@import 'foundation/components/top-bar';
-@import 'foundation/components/type';
-@import 'foundation/components/offcanvas';
-@import 'foundation/components/visibility';
 
 ```
 

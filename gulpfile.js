@@ -37,13 +37,10 @@ gulp.task('copy', function() {
 
 gulp.task('styles', function() {
   gulp
-  .src('src/mixins/demo.scss')
+  .src('main.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('src/'));
+    .pipe(gulp.dest(''));
 });
 
-gulp.task('default',function() {
-	gulp.watch('', ['copy']);
-  gulp.watch('', ['styles']);
-});
+gulp.task('default', ['copy', 'styles']);
