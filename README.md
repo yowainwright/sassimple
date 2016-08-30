@@ -4,7 +4,9 @@
 
 ## Install
 
-`bower install scss-utility-mixins`
+`bower install sassimple`
+
+`npm install sassimple`
 
 ## `scss-utility-mixins` provides
 
