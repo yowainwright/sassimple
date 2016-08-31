@@ -76,6 +76,7 @@
 ### 1. Code parity use case
 
 > Writing a mixin in a code parity pattern
+
 - In this example a button mixin is used to define a pattern of *_normalizing_ a `<button>`
 
 *normalizing: just means making it behave the same. _Normalizing_ is often done for browsers but it can also be done for team succinctness as well.  
@@ -113,6 +114,36 @@ Write your SCSS
 ```
 - No framework css classes required but you can use them if you'd like.
 
+### 2. Do complex stuff 
+
+> Use a mixin to do complex css
+
+- In this we'll middle align a div 
+
+Here's a mixin
+```sass
+@mixin middle-align($position: absolute) {
+  left: 50%;
+  position: $position;
+  top: 50%;
+  @include prefix(transform, translate(-50%, -50%), webkit ms moz);
+} 
+```
+
+Look at your HTML
+```html
+<div>
+	<div class="middle-align"></div>
+</div>
+```
+
+Write your SCSS
+```sass
+.middle-align {
+	@include middle-align;
+}
+```
+- After minor tweaking, you'll no longer have to think about middle aligning that pesky `<div>`.
 ## Current Sassimple Mixins
 
 From *Sassimple*
