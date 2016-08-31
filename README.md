@@ -1,6 +1,6 @@
 ![sassimple](https://cloud.githubusercontent.com/assets/1074042/18115410/166c989e-6ef4-11e6-85ef-6e5cf28ebe1b.jpg)
 
-## 🛠  Sassimple
+## 🛠 Sassimple
 
 [![1.0.7](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
 [![0.0.3](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
@@ -13,11 +13,11 @@
 
 `npm install sassimple`
 
-## *Setup
+## Setup
 
-> \* 📌  Once you've imported Sassimple you can just import the _sassimple.scss parial into your project how'd you'd like. 
+📌 &nbsp;Once you've imported Sassimple you can just import the _sassimple.scss parial into your project how'd you'd like. 
 
-## Sasssimple _&_ Awesome *3rd party sass libraries
+## Sasssimple adds Awesome *3rd party sass library mixins
 
 - [Bootstrap](http://getbootstrap.com/)
 - [Bourbon](http://bourbon.io/)
@@ -27,22 +27,22 @@
 
 \* use _3rd party_ sass libraries how you want
 
-## Philosophy
+## Simple Philosophy
 
 - Use `Scss` mixins to fill in your simple _or_ complex css problems.
 - Use _Sassimple_ mixins or don't.
 - Use a css framework or don't.
 - **0% css inprint on install**
 
-## Examples
+## Simple Examples
 
 ### 1. Code parity use case
 
 > Writing a mixin in a code parity pattern
 
-- In this example a button mixin is used to define a pattern of *_normalizing_ a `<button>`
+In this example a button mixin is used *_normalize_ `<button>` styles.
 
-*normalizing: just means making it behave the same. _Normalizing_ is often done for browsers but it can also be done for team succinctness as well.  
+\* normalize: just means making it behave the same. _Normalizing_ is often done for browsers but it can also be done for team succinctness as well.  
 
 Here's a mixin
 ```sass
@@ -57,14 +57,14 @@ Here's a mixin
 
 ```
 
-Your HTML
+& HTML
 ```html
 <form class="checkout">
     <button class="checkout__button checkout__button--finish"></button>
 </form>
 ```
 
-Your SCSS
+with SCSS
 ```sass
 .checkout {
 	&--button {
@@ -76,12 +76,13 @@ Your SCSS
 }
 ```
 - No framework css classes required but you can use them if you'd like.
+- **Solved** You now have basic button parity
 
 ### 2. Do complex stuff 
 
 > Use a mixin to do complex css
 
-- In this example we'll middle align a div 
+In this example we'll middle align a div 
 
 Here's a mixin
 ```sass
@@ -93,7 +94,7 @@ Here's a mixin
 } 
 ```
 
-_&_ your HTML
+& HTML
 ```html
 <div>
 	<div class="middle-align"></div>
@@ -106,7 +107,7 @@ with SCSS
 	@include middle-align;
 }
 ```
-- After minor tweaking, you'll no longer have to think about middle aligning that pesky `<div>`.
+- **Solved:** After minor tweaking, you'll no longer have to think about middle aligning that pesky `<div>`.
 
 More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
