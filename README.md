@@ -1,7 +1,9 @@
-<img alt="Sassimple" src="https://cloud.githubusercontent.com/assets/1074042/18114606/3b9332ba-6eed-11e6-81dd-1ea7f6b921ad.jpg" style="display: block; max-width: 300px; margin: 0 auto;" />
+![sassimple](https://cloud.githubusercontent.com/assets/1074042/18115237/a6d8a24e-6ef2-11e6-84ba-499e037f38ce.jpg)
 
+## 🛠 Sassimple
 
-# 🛠 Sassimple
+[![1.0.7](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
+[![0.0.3](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
 
 > Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
 
