@@ -8,19 +8,68 @@
 
 `npm install sassimple`
 
-## `scss-utility-mixins` provides
+## *Setup
+
+### Gulp
+
+*Basic*
+
+```javascript
+	var gulp = require('gulp');
+	var sass = require('gulp-sass');
+	var sassGlob = require('gulp-sass-glob');
+
+	gulp.task('styles', function() {
+  return gulp
+    .src('client/src/styles/**/*.scss')
+    .pipe(sassGlob())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('/* your desired file path */'));
+
+  gulp.task('default', ['styles']);
+
+```
+
+*Basic but better*
+
+```javascript
+	var gulp = require('gulp');
+	var sass = require('gulp-sass');
+	var sassGlob = require('gulp-sass-glob');
+
+	gulp.task('styles', function() {
+  return gulp
+    .src('client/src/styles/**/*.scss')
+    .pipe(sassGlob())
+    .pipe(sass({
+    	extension: 'scss',
+      includePaths: [
+        'bower_components/sassimple/'
+      ]
+    }).on('error', sass.logError))
+    .pipe(gulp.dest('/* your desired file path */'));
+
+  gulp.task('default', ['styles']);
+
+```
+> \* More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *sassimple* has it's own helper mixins.
+
+## Awesome *3rd party sass libraries
 
 - [Bootstrap](http://getbootstrap.com/)
 - [Bourbon](http://bourbon.io/)
 - [Neat](http://neat.bourbon.io/)
 - [Sassline](https://sassline.com/)
-- Plus, other helper `scss utility mixins` mixins
+- Plus, other helper `sassimple` mixins
 
-## Philo'
+* use _3rd party_ sass libraries how you want
+
+## Philosophy
 
 - `Scss` mixins to fill in your simple _or_ complex css problems.
-- Use mixins or don't.
-- Use a framework or don't.
+- Use Sassimple mixins or don't.
+- Use a css framework or don't.
+- 0% css inprint on install
 
 ## Examples
 
@@ -64,7 +113,31 @@ Write your SCSS
 ```
 - No framework css classes required but you can use them if you'd like.
 
-## Current Mixins
+## Current SasSimple Mixins
+
+From *sassimple*
+
+```sass
+@import "browser/appearance";
+@import "browser/prefix";
+@import "browser/ie/8";
+@import "browser/ie/9";
+@import "browser/ie/10_11";
+@import "decoration/stripes";
+@import "element/button";
+@import "element/progress";
+@import "element/submit";
+@import "layout/clearfix";
+@import "layout/positioning";
+@import "layout/clearfix";
+@import "media/image/circle";
+@import "media/video/play_button_circle";
+@import "media/video/play_button_rounded";
+@import "media/video/timer";
+@import "text/font_sizing";
+
+```
+*More coming soon!*
 
 From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
@@ -115,28 +188,3 @@ From [sassline](https://sassline.com/)
 @mixin sassline;
 
 ```
-
-From `scss-utility-mixins`
-
-```sass
-@import "browser/appearance";
-@import "browser/prefix";
-@import "browser/ie/8";
-@import "browser/ie/9";
-@import "browser/ie/10_11";
-@import "decoration/stripes";
-@import "element/button";
-@import "element/progress";
-@import "element/submit";
-@import "layout/clearfix";
-@import "layout/positioning";
-@import "layout/clearfix";
-@import "media/image/circle";
-@import "media/video/play_button_circle";
-@import "media/video/play_button_rounded";
-@import "media/video/timer";
-@import "text/font_sizing";
-
-```
-
-
