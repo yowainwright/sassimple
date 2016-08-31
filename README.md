@@ -2,7 +2,7 @@
 
 ## 🛠 Sassimple
 
-[![1.1.1](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
+[![1.1.3](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
 [![0.0.3](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
 
 > Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
