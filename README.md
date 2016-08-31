@@ -15,7 +15,7 @@
 
 ## *Setup
 
-### Gulp
+### Gulp Sassimple setup 
 
 *Basic*
 
@@ -35,7 +35,7 @@
 
 ```
 
-*Basic but better*
+*Basic _but better_*
 
 ```javascript
 	var gulp = require('gulp');
@@ -59,7 +59,7 @@
 ```
 > \* 📌  More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
-## Awesome *3rd party sass libraries
+## Sasssimple _&_ Awesome *3rd party sass libraries
 
 - [Bootstrap](http://getbootstrap.com/)
 - [Bourbon](http://bourbon.io/)
@@ -71,10 +71,10 @@
 
 ## Philosophy
 
-- `Scss` mixins to fill in your simple _or_ complex css problems.
+- Use `Scss` mixins to fill in your simple _or_ complex css problems.
 - Use _Sassimple_ mixins or don't.
 - Use a css framework or don't.
-- 0% css inprint on install
+- **0% css inprint on install**
 
 ## Examples
 
@@ -99,14 +99,14 @@ Here's a mixin
 
 ```
 
-Look at your HTML
+Your HTML
 ```html
 <form class="checkout">
     <button class="checkout__button checkout__button--finish"></button>
 </form>
 ```
 
-Write your SCSS
+Your SCSS
 ```sass
 .checkout {
 	&--button {
@@ -135,14 +135,14 @@ Here's a mixin
 } 
 ```
 
-Look at your HTML
+_&_ your HTML
 ```html
 <div>
 	<div class="middle-align"></div>
 </div>
 ```
 
-Write your SCSS
+with SCSS
 ```sass
 .middle-align {
 	@include middle-align;
