@@ -1,4 +1,4 @@
-# sassimple
+# Sassimple
 
 > Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
 
@@ -52,7 +52,7 @@
   gulp.task('default', ['styles']);
 
 ```
-> \* More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *sassimple* has it's own helper mixins.
+> \* More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
 ## Awesome *3rd party sass libraries
 
@@ -60,14 +60,14 @@
 - [Bourbon](http://bourbon.io/)
 - [Neat](http://neat.bourbon.io/)
 - [Sassline](https://sassline.com/)
-- Plus, other helper `sassimple` mixins
+- Plus, other helper _Sassimple_ mixins
 
 * use _3rd party_ sass libraries how you want
 
 ## Philosophy
 
 - `Scss` mixins to fill in your simple _or_ complex css problems.
-- Use Sassimple mixins or don't.
+- Use _Sassimple_ mixins or don't.
 - Use a css framework or don't.
 - 0% css inprint on install
 
@@ -113,9 +113,9 @@ Write your SCSS
 ```
 - No framework css classes required but you can use them if you'd like.
 
-## Current SasSimple Mixins
+## Current Sassimple Mixins
 
-From *sassimple*
+From *Sassimple*
 
 ```sass
 @import "browser/appearance";
