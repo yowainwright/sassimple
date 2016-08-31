@@ -1,4 +1,4 @@
-![sassimple](https://cloud.githubusercontent.com/assets/1074042/18115237/a6d8a24e-6ef2-11e6-84ba-499e037f38ce.jpg)
+![sassimple](https://cloud.githubusercontent.com/assets/1074042/18115353/8e4d57b4-6ef3-11e6-9dc3-48c2660fc181.jpg)
 
 ## 🛠 Sassimple
 
