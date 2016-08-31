@@ -1,6 +1,6 @@
 ![sassimple](https://cloud.githubusercontent.com/assets/1074042/18115410/166c989e-6ef4-11e6-85ef-6e5cf28ebe1b.jpg)
 
-## 🛠 Sassimple
+## 🛠  Sassimple
 
 [![1.0.7](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
 [![0.0.3](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
@@ -57,7 +57,7 @@
   gulp.task('default', ['styles']);
 
 ```
-> \* 📌 More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
+> \* 📌  More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
 ## Awesome *3rd party sass libraries
 
@@ -67,7 +67,7 @@
 - [Sassline](https://sassline.com/)
 - Plus, other helper _Sassimple_ mixins
 
-* use _3rd party_ sass libraries how you want
+\* use _3rd party_ sass libraries how you want
 
 ## Philosophy
 
