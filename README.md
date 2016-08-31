@@ -1,4 +1,4 @@
-![Sassimple](https://cloud.githubusercontent.com/assets/1074042/18114606/3b9332ba-6eed-11e6-81dd-1ea7f6b921ad.jpg)
+<img alt="Sassimple" src="https://cloud.githubusercontent.com/assets/1074042/18114606/3b9332ba-6eed-11e6-81dd-1ea7f6b921ad.jpg" style="display: block; max-width: 300px; margin: 0 auto;" />
 
 
 # 🛠 Sassimple
