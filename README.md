@@ -2,10 +2,14 @@
 
 ## 🛠 Sassimple
 
-[![1.0.7](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
+[![1.1.1](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
 [![0.0.3](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
 
 > Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
+
+Sassimple pulls in sass mixin libraries & adds mixins of its own to help you write your sass faster. 
+
+Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN Sassimple adds a few more common mixins to do to complex things. 
 
 ## Install
 
@@ -15,26 +19,16 @@
 
 ## Setup
 
-📌 &nbsp;Once you've imported Sassimple you can just import the _sassimple.scss parial into your project how'd you'd like. 
+📌 &nbsp;Once you've imported Sassimple, you can `@import` your `_sassimple.scss` parial. 
 
-## Sasssimple adds Awesome *3rd party sass library mixins
+## Philosophy
 
-- [Bootstrap](http://getbootstrap.com/)
-- [Bourbon](http://bourbon.io/)
-- [Neat](http://neat.bourbon.io/)
-- [Sassline](https://sassline.com/)
-- Plus, other helper _Sassimple_ mixins
-
-\* use _3rd party_ sass libraries how you want
-
-## Simple Philosophy
-
-- Use `Scss` mixins to fill in your simple _or_ complex css problems.
+- Use `Scss` mixins to fill in your simple _or_ to solve some more complex css problems.
 - Use _Sassimple_ mixins or don't.
 - Use a css framework or don't.
 - **0% css inprint on install**
 
-## Simple Examples
+## Examples
 
 ### 1. Code parity use case
 
@@ -107,13 +101,13 @@ with SCSS
 	@include middle-align;
 }
 ```
-- **Solved:** After minor tweaking, you'll no longer have to think about middle aligning that pesky `<div>`.
+- **Solved:** After minor tweaking, you'll no longer have to think about middle aligning anything.
 
-More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
+*Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
 ## Basic Sassimple setup examples
 
-### Reference the file right from `bower` or `npm`:
+### Reference the `_sassimple.scss` partial right from `bower` or `npm`:
 
 ```sass
 
@@ -125,27 +119,7 @@ More setups to come. *Note:* sass is fundamentally a ruby gem so there is inhere
 
 ```
 
-### Gulp Sassimple setup 
-
-*Basic*
-
-```javascript
-  var gulp = require('gulp');
-  var sass = require('gulp-sass');
-  var sassGlob = require('gulp-sass-glob');
-
-  gulp.task('styles', function() {
-  return gulp
-    .src('client/src/styles/**/*.scss')
-    .pipe(sassGlob())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('/* your desired file path */'));
-
-  gulp.task('default', ['styles']);
-
-```
-
-*Basic _but better_*
+### Reference Sassimple more cleaning in a build tool (like gulp as demonstrated here):
 
 ```javascript
   var gulp = require('gulp');
