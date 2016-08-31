@@ -1,6 +1,6 @@
 {
   "name": "sassimple",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "scss utility mixins",
   "main": "index.html",
   "scripts": {
