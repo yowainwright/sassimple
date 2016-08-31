@@ -1,3 +1,5 @@
+![Sassimple](/page/sassimple-con-red.svg)
+
 # 🛠 Sassimple
 
 > Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
@@ -118,7 +120,7 @@ Write your SCSS
 
 > Use a mixin to do complex css
 
-- In this we'll middle align a div 
+- In this example we'll middle align a div 
 
 Here's a mixin
 ```sass
