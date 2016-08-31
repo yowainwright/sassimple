@@ -1,4 +1,4 @@
-# Sassimple
+# 🛠 Sassimple
 
 > Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
 
@@ -52,7 +52,7 @@
   gulp.task('default', ['styles']);
 
 ```
-> \* More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
+> \* 📌 More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
 ## Awesome *3rd party sass libraries
 
