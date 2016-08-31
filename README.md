@@ -15,49 +15,7 @@
 
 ## *Setup
 
-### Gulp Sassimple setup 
-
-*Basic*
-
-```javascript
-	var gulp = require('gulp');
-	var sass = require('gulp-sass');
-	var sassGlob = require('gulp-sass-glob');
-
-	gulp.task('styles', function() {
-  return gulp
-    .src('client/src/styles/**/*.scss')
-    .pipe(sassGlob())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('/* your desired file path */'));
-
-  gulp.task('default', ['styles']);
-
-```
-
-*Basic _but better_*
-
-```javascript
-	var gulp = require('gulp');
-	var sass = require('gulp-sass');
-	var sassGlob = require('gulp-sass-glob');
-
-	gulp.task('styles', function() {
-  return gulp
-    .src('client/src/styles/**/*.scss')
-    .pipe(sassGlob())
-    .pipe(sass({
-    	extension: 'scss',
-      includePaths: [
-        'bower_components/sassimple/'
-      ]
-    }).on('error', sass.logError))
-    .pipe(gulp.dest('/* your desired file path */'));
-
-  gulp.task('default', ['styles']);
-
-```
-> \* 📌  More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
+> \* 📌  Once you've imported Sassimple you can just import the _sassimple.scss parial into your project how'd you'd like. 
 
 ## Sasssimple _&_ Awesome *3rd party sass libraries
 
@@ -149,6 +107,66 @@ with SCSS
 }
 ```
 - After minor tweaking, you'll no longer have to think about middle aligning that pesky `<div>`.
+
+More setups to come. *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
+
+## Basic Sassimple setup examples
+
+### Reference the file right from `bower` or `npm`:
+
+```sass
+
+// in sass file (with bower)
+@import 'bower_components/sassimple/mixins/sassimple';
+
+// or (with npm)
+@import 'node_modules/sassimple/mixins/sassimple';
+
+```
+
+### Gulp Sassimple setup 
+
+*Basic*
+
+```javascript
+  var gulp = require('gulp');
+  var sass = require('gulp-sass');
+  var sassGlob = require('gulp-sass-glob');
+
+  gulp.task('styles', function() {
+  return gulp
+    .src('client/src/styles/**/*.scss')
+    .pipe(sassGlob())
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('/* your desired file path */'));
+
+  gulp.task('default', ['styles']);
+
+```
+
+*Basic _but better_*
+
+```javascript
+  var gulp = require('gulp');
+  var sass = require('gulp-sass');
+  var sassGlob = require('gulp-sass-glob');
+
+  gulp.task('styles', function() {
+  return gulp
+    .src('client/src/styles/**/*.scss')
+    .pipe(sassGlob())
+    .pipe(sass({
+      extension: 'scss',
+      includePaths: [
+        'bower_components/sassimple/'
+      ]
+    }).on('error', sass.logError))
+    .pipe(gulp.dest('/* your desired file path */'));
+
+  gulp.task('default', ['styles']);
+
+```
+
 ## Current Sassimple Mixins
 
 From *Sassimple*
