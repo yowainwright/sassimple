@@ -9,7 +9,7 @@
 
 Sassimple pulls in sass mixin libraries & adds mixins of its own to help you write your sass faster. 
 
-Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN Sassimple adds a few more common mixins to do to complex things. 
+Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers & **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN Sassimple adds a few more common mixins to do to complex things. 
 
 ## Install
 
