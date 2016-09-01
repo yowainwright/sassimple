@@ -9,7 +9,7 @@
 
 Sassimple pulls in sass mixin libraries & adds mixins of its own to help you write your sass faster. 
 
-Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers & **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN Sassimple adds a few more common mixins to do to complex things. 
+Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers, **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN 🛠 **Sassimple** adds a few more common mixins to do to complex things. 
 
 ## Install
 
@@ -26,7 +26,7 @@ Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css cl
 - Use `Scss` mixins to fill in your simple _or_ to solve some more complex css problems.
 - Use _Sassimple_ mixins or don't.
 - Use a css framework or don't.
-- **0% css inprint on install**
+- 🛠 **0% css inprint on install**
 
 ## Examples
 
@@ -70,7 +70,7 @@ with SCSS
 }
 ```
 - No framework css classes required but you can use them if you'd like.
-- **Solved** You now have basic button parity
+- 🛠 **Solved** You now have a basic button normalization
 
 ### 2. Do complex stuff 
 
@@ -101,7 +101,7 @@ with SCSS
 	@include middle-align;
 }
 ```
-- **Solved:** After minor tweaking, you'll no longer have to think about middle aligning anything.
+- 🛠 **Solved:** After minor tweaking, you'll no longer have to think about middle aligning anything.
 
 *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
@@ -207,6 +207,7 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 From [sassline](https://sassline.com/)
 
 ```sass
+
 @mixin breakpoint;
 @mixin rootsize;
 @mixin maxwidth;
