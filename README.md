@@ -9,7 +9,7 @@
 
 🛠 &nbsp;Sassimple pulls in sass mixin libraries & adds mixins of its own to help you write your sass faster. 
 
-Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers, **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN 🛠&nbsp;**Sassimple** adds a few more common mixins to do to complex things. 
+Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers, **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN 🛠&nbsp;&nbsp;**Sassimple** adds a few more common mixins to do to complex things. 
 
 ## Install
 
@@ -70,7 +70,7 @@ with SCSS
 }
 ```
 - No framework css classes required but you can use them if you'd like.
-- 🛠 &nbsp;**Solved** You now have a basic button normalization
+- 🛠 &nbsp;&nbsp;**Solved:** &nbsp;You now have a basic button normalization
 
 ### 2. Do complex stuff 
 
@@ -101,7 +101,7 @@ with SCSS
 	@include middle-align;
 }
 ```
-- 🛠 &nbsp;**Solved:** After minor tweaking, you'll no longer have to think about middle aligning anything.
+- 🛠 &nbsp;&nbsp;**Solved:** &nbsp;After minor tweaking, you'll no longer have to think about middle aligning anything.
 
 *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
@@ -166,7 +166,7 @@ From *Sassimple*
 @import "text/font_sizing";
 
 ```
-🛠 &nbsp;**More coming soon!**
+( 🛠 &nbsp;**More coming soon!**)
 
 From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
