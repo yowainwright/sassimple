@@ -6,18 +6,18 @@ var webserver = require('gulp-webserver');
 
 gulp.task('copy', function() {
 	// 3rd party mixins
-	[
-    ['bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scs', 'mixins/bootstrap/mixins/'],
-    ['bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss', 'mixins/bootstrap/'],
-
-  ].forEach(dep => gulp.src(dep[0]).pipe(gulp.dest(dep[1])));
-  
-	// gulp
-	// .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
- //    .pipe(gulp.dest('mixins/bootstrap/'));
- //  gulp
-	// .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss')
- //    .pipe(gulp.dest('mixins/bootstrap/'));
+	gulp
+    .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scss')
+    .pipe(gulp.dest('mixins/bootstrap/mixins/'));
+  gulp
+    .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss')
+    .pipe(gulp.dest('mixins/bootstrap/'));
+  gulp
+    .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
+    .pipe(gulp.dest('mixins/bootstrap/'));
+  gulp
+    .src('bower_components/compass-sass-mixins/lib/**/*')
+    .pipe(gulp.dest('mixins/compass/'));
   gulp
 	.src('bower_components/sassline/assets/sass/sassline-base/_variables.scss')
     .pipe(gulp.dest('mixins/sassline/'));
@@ -26,9 +26,6 @@ gulp.task('copy', function() {
     .pipe(gulp.dest('mixins/sassline/'));
   gulp
   .src('bower_components/bourbon/assets/stylesheets/**/*')
-    .pipe(gulp.dest('mixins/bourbon/'));
-  gulp
-  .src('bower_components/bourbon/app/assets/stylesheets/**/*')
     .pipe(gulp.dest('mixins/bourbon/'));
   gulp
   .src('bower_components/neat/app/assets/stylesheets/**/*')
