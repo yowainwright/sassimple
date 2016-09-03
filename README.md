@@ -13,21 +13,24 @@ Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** (without css class
 
 ## Install
 
-`bower install sassimple`
+```
+bower install sassimple
+```
 
-`npm install sassimple`
+```
+npm install sassimple
+```
 
 ## Setup
 
-📌 &nbsp;Once you've imported Sassimple, you can `@import` your `_sassimple.scss` parial. 
+📌 &nbsp;Once you've imported 🛠 &nbsp;**Sassimple**, you can `@import` your `_sassimple.scss` parial how you'd like
 
-Easiest setup
 ```css
-// with npm
-// read below for more docs
+
 @import 'node_modules/sassimple/mixins/sassimple';
 
 ```
+\* Above, is just the easiest path 🛠 &nbsp;**Sassimple**. You'd can set it up how you'd like.
 
 ### Super Easy Use Case
 
@@ -47,6 +50,11 @@ Easiest setup
 - Use _Sassimple_ mixins or don't.
 - Use a css framework or don't.
 - 🛠 **0% css inprint on install**
+
+## Why
+
+- The need the use frameworks while simultaneously not wanting their overhead for things the project doesn't need 
+- The need to have a place to quickly reference already written awesome sass mixins
 
 ## Examples
 
@@ -92,7 +100,7 @@ with SCSS
 - No framework css classes required but you can use them if you'd like.
 - 🛠 &nbsp;&nbsp;**Solved:** &nbsp;You now have a basic button normalization
 
-### 2. Do complex stuff 
+### 2. Do more complex stuff 
 
 > Use a mixin to do complex css
 
@@ -125,7 +133,7 @@ with SCSS
 
 *Note:* sass is fundamentally a ruby gem so there is inherently an extra build step with *Sassimple*. However, the convenience of _lots_ of battle tested mixins after an exta setup step easily makes it worthwhile. + *Sassimple* has it's own helper mixins.
 
-## Basic Sassimple setup examples
+## More Basic Sassimple setup examples
 
 ### Reference the `_sassimple.scss` partial right from `bower` or `npm`:
 
@@ -162,9 +170,16 @@ with SCSS
 
 ```
 
-## Reference
+## If
+- You'd like mixins added
+- Other libraries added (that don't add a `css` footprint on inclusion)
+- Feel a mixin could be done better - submit a PR.
+- 🛠 **Sassimple** will continue improving 👍.
 
-From *Sassimple*
+## \* Mixin Reference
+* Will be adding an easy reference soon.
+
+From 🛠 &nbsp;**Sassimple**
 
 ```css
 @import "browser/appearance";
