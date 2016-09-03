@@ -1,11 +1,12 @@
-var gulp = require('gulp');
-var rename = require("gulp-rename");
-var sass = require('gulp-sass');
-var sassGlob = require('gulp-sass-glob');
-var webserver = require('gulp-webserver');
+const gulp = require('gulp');
+const rename = require("gulp-rename");
+const sass = require('gulp-sass');
+const sassGlob = require('gulp-sass-glob');
+const webserver = require('gulp-webserver');
 
-gulp.task('copy', function() {
-	// 3rd party mixins
+// COPY
+// copy in foot printless sass mixins
+gulp.task('copy', () => {
 	gulp
     .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scss')
     .pipe(gulp.dest('mixins/bootstrap/mixins/'));
@@ -32,12 +33,21 @@ gulp.task('copy', function() {
     .pipe(gulp.dest('mixins/neat/'));
 });
 
-gulp.task('styles', function() {
-  gulp
+// Styles build styles for the landing page
+gulp.task('styles', () => {
+  return gulp
   .src('main.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('page/'));
+});
+
+gulp.task('view', () => {
+  gulp.src('')
+    .pipe(webserver({
+      open: true,
+      fallback: 'index.html'
+    }));
 });
 
 gulp.task('default', ['copy', 'styles']);

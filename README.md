@@ -5,11 +5,11 @@
 [![1.1.3](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
 [![0.0.3](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
 
-> Fill in your `css` gaps & with awesome work that is already done (using `scss` mixins)
+> Fill in your `css` gaps & with awesome **already done** work that (using `scss` mixins)
 
 🛠 &nbsp;Sassimple pulls in sass mixin libraries & adds mixins of its own to help you write your sass faster. 
 
-Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css classes for _normalization_ of things like `buttons`, **[Bourbon](http://bourbon.io/)** for styles helpers on things like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers, **[Sassline](https://sassline.com/)** for font sizes & lineheights AND THEN 🛠&nbsp;&nbsp;**Sassimple** adds a few more common mixins to do to complex things. 
+Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** (without css classes) for _normalization_ to the most used ui library on the internet, **[Bourbon](http://bourbon.io/)** for styles helpers like _css transitions_, **[Neat](http://neat.bourbon.io/)** for a faceless (no css classes) grid, **[Compass](http://compass-style.org/)** for autoprefixing stuff & other helpers, **[Sassline](https://sassline.com/)** for font sizes & lineheights **AND THEN** 🛠&nbsp;&nbsp;**Sassimple** adds a few more common mixins to do to complex things. 
 
 ## Install
 
@@ -20,6 +20,26 @@ Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** without the css cl
 ## Setup
 
 📌 &nbsp;Once you've imported Sassimple, you can `@import` your `_sassimple.scss` parial. 
+
+** easiest setup**
+```css
+// with npm
+// read below for more docs
+@import 'node_modules/sassimple/mixins/sassimple';
+
+```
+
+### Super Easy Use Case
+
+```css
+
+.button {
+  @include button; 
+  // .button will now have browser defaults removed
+  // you can checkout the mixin to further styles
+}
+
+```
 
 ## Philosophy
 
@@ -39,7 +59,7 @@ In this example a button mixin is used *_normalize_ `<button>` styles.
 \* normalize: just means making it behave the same. _Normalizing_ is often done for browsers but it can also be done for team succinctness as well.  
 
 Here's a mixin
-```sass
+```css
 @mixin button ($backgrondColor = transparent, $padding = 0, $border = 0, $margin = 0, $outline: 0, $padding = 0) {
 		background-color: $backgrondColor;
     border: $border;
@@ -59,7 +79,7 @@ Here's a mixin
 ```
 
 with SCSS
-```sass
+```css
 .checkout {
 	&--button {
 		@include button(you, got, it, all);
@@ -79,7 +99,7 @@ with SCSS
 In this example we'll middle align a div 
 
 Here's a mixin
-```sass
+```css
 @mixin middle-align($position: absolute) {
   left: 50%;
   position: $position;
@@ -96,7 +116,7 @@ Here's a mixin
 ```
 
 with SCSS
-```sass
+```css
 .middle-align {
 	@include middle-align;
 }
@@ -109,7 +129,7 @@ with SCSS
 
 ### Reference the `_sassimple.scss` partial right from `bower` or `npm`:
 
-```sass
+```css
 
 // in sass file (with bower)
 @import 'bower_components/sassimple/mixins/sassimple';
@@ -146,7 +166,7 @@ with SCSS
 
 From *Sassimple*
 
-```sass
+```css
 @import "browser/appearance";
 @import "browser/prefix";
 @import "browser/ie/8";
@@ -170,7 +190,7 @@ From *Sassimple*
 
 From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
-```sass
+```css
 @import "mixins/hide-text";
 @import "mixins/opacity";
 @import "mixins/image";
@@ -206,7 +226,7 @@ From [bootstrap sass](https://github.com/twbs/bootstrap-sass)
 
 From [sassline](https://sassline.com/)
 
-```sass
+```css
 
 @mixin breakpoint;
 @mixin rootsize;

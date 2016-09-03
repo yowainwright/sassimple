@@ -13,8 +13,9 @@
 @import "neat/neat.scss";
 
 @import "compass/compass.sass";
-@import "compass/animate.sass";
-@import "compass/lemonade.sass";
+// uncomment to use compass animate or lemonade
+//@import "compass/animate.sass";
+//@import "compass/lemonade.sass";
 
 // Mixins provided by Sassimple
 @import "variables";
