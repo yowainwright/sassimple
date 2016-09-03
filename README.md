@@ -243,13 +243,13 @@ From [sassline](https://sassline.com/)
 
 ```css
 
-@mixin breakpoint;
-@mixin rootsize;
-@mixin maxwidth;
-@mixin measure;
-@mixin ideal-measure;
-@mixin fontsize;
-@mixin baseline;
-@mixin sassline;
+@mixin "breakpoint";
+@mixin "rootsize";
+@mixin "maxwidth";
+@mixin "measure";
+@mixin "ideal-measure";
+@mixin "fontsize";
+@mixin "baseline";
+@mixin "sassline";
 
 ```
