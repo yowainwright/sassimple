@@ -21,7 +21,7 @@ Sassimple brings in **[Bootstrap](http://getbootstrap.com/)** (without css class
 
 📌 &nbsp;Once you've imported Sassimple, you can `@import` your `_sassimple.scss` parial. 
 
-** easiest setup**
+Easiest setup
 ```css
 // with npm
 // read below for more docs
