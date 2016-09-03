@@ -1,6 +1,6 @@
 {
   "name": "sassimple",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "scss utility mixins",
   "main": "index.html",
   "scripts": {
@@ -28,10 +28,12 @@
     "bower": "^1.7.9",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
+    "gulp-mustache-plus": "^1.0.1",
     "gulp-purifycss": "^0.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-sass-glob": "^1.0.6",
-    "gulp-webserver": "^0.9.1"
+    "gulp-webserver": "^0.9.1",
+    "gulp-yaml": "^1.0.1"
   }
 }

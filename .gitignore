@@ -2,4 +2,6 @@ node_modules/*
 bower_components/*
 main.scss
 page/index.mustache
-page/config/*
+page/mixin.yml
+page/mixin.json
+
