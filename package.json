@@ -14,7 +14,11 @@
     "css",
     "scss",
     "sass",
-    "mixins"
+    "mixins",
+    "bootstrap",
+    "compass",
+    "bourbon",
+    "neat"
   ],
   "author": "Jeffry Wainwright",
   "license": "ISC",

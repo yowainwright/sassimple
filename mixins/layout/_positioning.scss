@@ -2,7 +2,7 @@
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
-  @include prefix(transform, translateY(-50%), webkit ms moz);
+  transform: translateY(-50%);
 }
 // Example usage: @include vertical-align;
 
@@ -10,7 +10,7 @@
 @mixin horizontal-align($position: relative) {
   position: $position;
   left: 50%;
-  @include prefix(transform, translateX(-50%), webkit ms moz);
+  transform: translateX(-50%);
 }
 // Example usage: @include horizontal-align;
 
@@ -20,6 +20,6 @@
   left: 50%;
   position: $position;
   top: 50%;
-  @include prefix(transform, translate(-50%, -50%), webkit ms moz);
-} 
+  transform: translate(-50%, -50%);
+}
 // Example usage: @include middle-align;
