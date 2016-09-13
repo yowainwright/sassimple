@@ -13,7 +13,14 @@ mixins:
   link: https://css-tricks.com/snippets/sass/mixin-prefix-properties/
 - name: ie 10 11
   ref: '@include support-ie-10-11'
-  keywords: browser, ie, ie10, ie11
+  keywords: browser, internet explorer, internet explorer 10, internet explorer 11,ie, ie10, ie11
   description: This mixin allows you to select only ie 10 or 11 for whatever your hack is
   example: '@include support-ie-10-11'
-  link: https://css-tricks.com/snippets/sass/mixin-prefix-properties/
+  link: ''
+- name: ie 9
+  ref: '@include support-ie-9($property, $value)'
+  keywords: browser, internet explorer, internet explorer 9, ie, ie9
+  description: Fix issues in specifically ie9
+  example: '@include support-ie-9'
+  link: ''
+
