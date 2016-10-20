@@ -5,7 +5,7 @@ const sass = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
 
 const yaml = require('gulp-yaml');
-const mustache = require('gulp-mustache-plus'); 
+const mustache = require('gulp-mustache-plus');
 const webserver = require('gulp-webserver');
 
 // gulp compile json from yml
@@ -47,18 +47,10 @@ gulp.task('copy', () => {
 // Styles build styles for the landing page
 gulp.task('styles', () => {
   return gulp
-  .src('main.scss')
+  .src('page/main.scss')
     .pipe(sassGlob())
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('page/'));
-});
-
-gulp.task('view', () => {
-  gulp.src('')
-    .pipe(webserver({
-      open: true,
-      fallback: 'index.html'
-    }));
 });
 
 gulp.task('default', ['json', 'copy', 'styles']);
