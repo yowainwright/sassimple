@@ -3,8 +3,11 @@
   "version": "1.2.4",
   "description": "scss utility mixins",
   "main": "index.html",
+  "files": [
+    "mixins"
+  ],
   "scripts": {
-    "test": "scss utilties"
+    "postpublish": "git tag $npm_package_version && git push origin --tags"
   },
   "repository": {
     "type": "git",
@@ -18,7 +21,11 @@
     "bootstrap",
     "compass",
     "bourbon",
-    "neat"
+    "neat",
+    "styles",
+    "style",
+    "css utilties",
+    "css tools"
   ],
   "author": "Jeffry Wainwright",
   "license": "ISC",

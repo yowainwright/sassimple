@@ -4,9 +4,8 @@ const rename = require("gulp-rename");
 const sass = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
 
-const yaml = require('gulp-yaml'); 
+const yaml = require('gulp-yaml');
 const mustache = require('gulp-mustache-plus'); 
-
 const webserver = require('gulp-webserver');
 
 // gulp compile json from yml

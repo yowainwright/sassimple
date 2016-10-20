@@ -1,8 +1,7 @@
 {
   "name": "sassimple",
   "description": "scss mixins library",
-  "main": "index.html",
-  "version": "v0.0.8",
+  "main": "mixins/sassimple.scss",
   "authors": [
     "Jeffry Wainwright"
   ],
@@ -19,7 +18,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "page",
+    "index.html",
+    "main.scss"
   ],
   "devDependencies": {
     "bourbon": "^4.2.7",

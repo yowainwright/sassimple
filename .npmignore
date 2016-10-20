@@ -1,0 +1,5 @@
+node_modules/*
+bower_components/*
+main.scss
+page/*
+index.html
