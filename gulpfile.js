@@ -19,28 +19,28 @@ gulp.task('json', () => {
 // copy in foot printless sass mixins
 gulp.task('copy', () => {
 	gulp
-    .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scss')
+    .src('node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins/*.scss')
     .pipe(gulp.dest('mixins/bootstrap/mixins/'));
   gulp
-    .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss')
+    .src('node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss')
     .pipe(gulp.dest('mixins/bootstrap/'));
   gulp
-    .src('bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
+    .src('node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss')
     .pipe(gulp.dest('mixins/bootstrap/'));
   gulp
-    .src('bower_components/compass-sass-mixins/lib/**/*')
+    .src('node_modules/compass-sass-mixins/lib/**/*')
     .pipe(gulp.dest('mixins/compass/'));
   gulp
-	.src('bower_components/sassline/assets/sass/sassline-base/_variables.scss')
+	  .src('node_modules/sassline/assets/sass/sassline-base/_variables.scss')
     .pipe(gulp.dest('mixins/sassline/'));
   gulp
-	.src('bower_components/sassline/assets/sass/sassline-base/_mixins.scss')
+	  .src('node_modules/sassline/assets/sass/sassline-base/_mixins.scss')
     .pipe(gulp.dest('mixins/sassline/'));
   gulp
-  .src('bower_components/bourbon/assets/stylesheets/**/*')
+    .src('node_modules/bourbon/assets/stylesheets/**/*')
     .pipe(gulp.dest('mixins/bourbon/'));
   gulp
-  .src('bower_components/neat/app/assets/stylesheets/**/*')
+    .src('node_modules/neat/app/assets/stylesheets/**/*')
     .pipe(gulp.dest('mixins/neat/'));
 });
 
