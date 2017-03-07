@@ -1,4 +1,4 @@
-//video timer mixin
+//creates a timer mixin, particularly for video
 @mixin loading($time, $size, $forecolor, $backcolor, $bsize: 8px, $ease: linear) {
 	box-sizing: border-box;
 	position: relative;

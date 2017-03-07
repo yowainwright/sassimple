@@ -3,8 +3,6 @@
   position: $position;
   top: 50%;
   transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
 }
 // Example usage: @include vertical-align;
 
@@ -13,8 +11,6 @@
   position: $position;
   left: 50%;
   transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
 }
 // Example usage: @include horizontal-align;
 
@@ -25,7 +21,5 @@
   position: $position;
   top: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
 }
 // Example usage: @include middle-align;

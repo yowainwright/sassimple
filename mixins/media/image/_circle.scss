@@ -1,3 +1,4 @@
+// make any element (block or inline-block) a perfect circle
 @mixin circular-image($size) {
     background-size: cover;
     background-repeat: no-repeat;

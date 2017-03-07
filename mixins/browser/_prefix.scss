@@ -1,4 +1,5 @@
 // vendor prefixes
+// you should be using autoprefixer here but if you can't for some reason...
 @mixin prefix($property, $value, $prefixes: ()) {
   @each $prefix in $prefixes {
     #{'-' + $prefix + '-' + $property}: $value;

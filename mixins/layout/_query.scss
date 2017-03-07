@@ -1,4 +1,5 @@
 // media queries
+// you should probably just use the actual media query api, it's simple enough
 @mixin media-query-utility($width) {
     @media screen and (min-width: $width) {
         @content;

@@ -1,3 +1,4 @@
+// creates a relaive shaved play button of different sizes
 @mixin play-button ($sizeMultiplier : 1) {
 	position: relative;
   &:after,
