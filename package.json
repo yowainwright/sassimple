@@ -43,7 +43,7 @@
     "gulp-purifycss": "^0.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-sass-glob": "^1.0.6",
+    "gulp-sass-glob": "^1.0.8",
     "gulp-webserver": "^0.9.1",
     "gulp-yaml": "^1.0.1",
     "neat": "^1.2.2",

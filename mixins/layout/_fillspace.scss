@@ -1,0 +1,8 @@
+@mixin fillSpace {
+  overflow: initial;
+  &:after {
+    clear: both;
+    content: ' ';
+    display: block;
+  }
+}

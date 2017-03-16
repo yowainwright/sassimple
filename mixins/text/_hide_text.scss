@@ -1,0 +1,6 @@
+@mixin hideText {
+  color: transparent;
+  left: -100%;
+  overflow: hidden;
+  position: absolute;
+}
