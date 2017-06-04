@@ -1,13 +1,14 @@
 {
   "name": "sassimple",
-  "version": "1.3.6",
+  "version": "1.3.7",
   "description": "scss utility mixins",
   "main": "index.html",
   "files": [
     "mixins"
   ],
   "scripts": {
-    "postpublish": "git tag $npm_package_version && git push origin --tags"
+    "postpublish": "git tag $npm_package_version && git push origin --tags",
+    "build": "gulp"
   },
   "repository": "git+https://github.com/yowainwright/sassimple.git",
   "keywords": [
