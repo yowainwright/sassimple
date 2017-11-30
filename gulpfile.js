@@ -30,7 +30,7 @@ gulp.task('copy', () => {
     .src('node_modules/bourbon/assets/stylesheets/**/*')
     .pipe(gulp.dest('mixins/bourbon/'));
   gulp
-    .src('node_modules/neat/app/assets/stylesheets/**/*')
+    .src('node_modules/bourbon-neat/app/assets/stylesheets/**/*')
     .pipe(gulp.dest('mixins/neat/'));
 });
 
