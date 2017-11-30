@@ -1,6 +1,6 @@
 {
   "name": "sassimple",
-  "version": "1.3.7",
+  "version": "1.3.8",
   "description": "scss utility mixins",
   "main": "index.html",
   "files": [
@@ -36,7 +36,6 @@
     "babel-preset-es2015": "^6.14.0",
     "bootstrap-sass": "^3.3.7",
     "bourbon": "^4.3.3",
-    "bower": "^1.7.9",
     "compass-sass-mixins": "^0.12.7",
     "gulp": "^3.9.1",
     "gulp-cssnano": "^2.1.2",
@@ -47,7 +46,6 @@
     "gulp-sass-glob": "^1.0.8",
     "gulp-webserver": "^0.9.1",
     "gulp-yaml": "^1.0.1",
-    "neat": "^1.2.2",
-    "sassline": "^2.1.2"
+    "neat": "^1.2.2"
   }
 }

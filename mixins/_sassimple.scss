@@ -2,12 +2,6 @@
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
-// imports sassline (vertical rhythm): https://sassline.com/
-@import "sassline/variables.scss";
-@import "sassline/mixins.scss";
-	// Key mixin: sassline
-	// General sassline mixin layout sassline($fontsize, $font, $lineheight, $below, $breakpoint);
-
 // imports bourbon & neat
 @import "bourbon/bourbon.scss";
 @import "neat/neat.scss";

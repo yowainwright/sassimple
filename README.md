@@ -1,19 +1,15 @@
 ![sassimple](https://cloud.githubusercontent.com/assets/1074042/18115410/166c989e-6ef4-11e6-85ef-6e5cf28ebe1b.jpg)
 
-## 🛠 Sassimple
+<h1 align="center"> 🛠 Sassimple</h1>
 
 [![1.2.4](https://badge.fury.io/js/sassimple.svg)](https://badge.fury.io/js/sassimple)
 [![0.0.7](https://badge.fury.io/bo/sassimple.svg)](https://badge.fury.io/bo/sassimple)
 
 > Fill in your `css` gaps with the best `scss` mixins
 
-🛠 &nbsp;Sassimple is buffet of the best `scss` mixins with **0% css inprint when included into a project**!
+Sassimple is buffet of the best `scss` mixins with 0% css inprint when included into a project!
 
 ## Install
-
-```
-bower i sassimple
-```
 
 ```
 npm i sassimple
@@ -41,7 +37,7 @@ npm i sassimple
 ## Why
 
 - You don't want to use a css framework but want a css framework's helper `scss` mixins.
-- You want to have lots of ready to use mixins at your service whether you use them or not
+- You want to have lots of ready to use mixins at your service whether you use them or not.
 
 ## \*Mixin Reference
 
@@ -49,11 +45,10 @@ npm i sassimple
 - [Bourbon](http://bourbon.io/) for styles helpers like _css transitions_,
 - [Neat](http://neat.bourbon.io/) for a faceless (no css classes) grid,
 - [Compass](http://compass-style.org/) for autoprefixing stuff & other helpers &
-- [Sassline](https://sassline.com/) for font sizes & lineheights.
 - [Sassimple](https://github.com/yowainwright/sassimple/tree/master/mixins) to add to the layer cake of supported mixins
 
 ## Create an [issue](https://github.com/yowainwright/sassimple/issues)
-- if you'd like a sass library or mixin to be added
+- if you'd like a scss library or mixin to be added
 - or, if you have recommendations
 
 🛠 **Sassimple** is a current project 👍.
