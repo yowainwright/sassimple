@@ -38,14 +38,9 @@
     "bourbon": "^4.3.3",
     "compass-sass-mixins": "^0.12.7",
     "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-mustache-plus": "^1.0.1",
-    "gulp-purifycss": "^0.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sass-glob": "^1.0.8",
-    "gulp-webserver": "^0.9.1",
-    "gulp-yaml": "^1.0.1",
     "neat": "^1.2.2"
   }
 }
