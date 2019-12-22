@@ -7,34 +7,40 @@
 
 > Fill in your `css` gaps with the best `scss` mixins
 
-Sassimple is buffet of the best `scss` mixins with 0% css inprint when included into a project!
+Sassimple is buffet of the best `scss` mixins with 0% css footprint when included into a project!
 
 ## Install
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/yowainwright/sassimple.svg)](https://greenkeeper.io/)
 
-```
+```bash
+
 npm i sassimple
+
 ```
 
 ## Setup
 
 ```css
+
 @import 'node_modules/sassimple/mixins/sassimple';
+
 ```
 
 ## Use
 
 ```css
+
 .button {
   @include button; // imports button styles from bourbon
 }
+
 ```
 
 ## Philosophy
 
 - Use popular `scss` mixins to solve css problems.
-- Fully use popular scss helper mixins or don't - Sassimple is just there.
+- Fully use popular scss helper mixins or don't - Sassimple is there.
 
 ## Why
 
@@ -46,11 +52,10 @@ npm i sassimple
 - [Bootstrap](http://getbootstrap.com/) (without the framework's css classes) for _normalization_ to the most used ui library on the internet,
 - [Bourbon](http://bourbon.io/) for styles helpers like _css transitions_,
 - [Neat](http://neat.bourbon.io/) for a faceless (no css classes) grid,
-- [Compass](http://compass-style.org/) for autoprefixing stuff & other helpers &
-- [Sassimple](https://github.com/yowainwright/sassimple/tree/master/mixins) to add to the layer cake of supported mixins
+- [Compass](http://compass-style.org/) for autoprefixing css & other helpers - [Sassimple](https://github.com/yowainwright/sassimple/tree/master/mixins) to add to the layer cake of supported mixins
 
 ## Create an [issue](https://github.com/yowainwright/sassimple/issues)
-- if you'd like a scss library or mixin to be added
-- or, if you have recommendations
+
+Create an issue if you'd like a scss library or mixin to be added or, if you have recommendations
 
 🛠 **Sassimple** is a current project 👍.
