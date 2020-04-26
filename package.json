@@ -41,7 +41,7 @@
     "babel-core": "^6.14.0",
     "babel-preset-es2015": "^6.14.0",
     "bootstrap-sass": "^3.3.7",
-    "bourbon": "^6.0.0",
+    "bourbon": "^7.0.0",
     "bourbon-neat": "^4.0.0",
     "compass-sass-mixins": "^0.12.7",
     "conventional-changelog-cli": "^2.0.31",
